@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CustomRPC.WPF")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Vendy_RPC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e80d2016a24a815ebcb0899b4652a4bb57da77f6")]
-[assembly: System.Reflection.AssemblyProductAttribute("CustomRPC.WPF")]
+[assembly: System.Reflection.AssemblyProductAttribute("Vendy_RPC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vendy RPC Program")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghkim\\Downloads\\CustomRPC.WPF\\CustomRPC.WPF.csproj": {}
+    "C:\\Users\\ghkim\\Downloads\\Vendy_RPC\\Vendy_RPC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghkim\\Downloads\\CustomRPC.WPF\\CustomRPC.WPF.csproj": {
+    "C:\\Users\\ghkim\\Downloads\\Vendy_RPC\\Vendy_RPC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghkim\\Downloads\\CustomRPC.WPF\\CustomRPC.WPF.csproj",
-        "projectName": "CustomRPC.WPF",
-        "projectPath": "C:\\Users\\ghkim\\Downloads\\CustomRPC.WPF\\CustomRPC.WPF.csproj",
+        "projectUniqueName": "C:\\Users\\ghkim\\Downloads\\Vendy_RPC\\Vendy_RPC.csproj",
+        "projectName": "Vendy_RPC",
+        "projectPath": "C:\\Users\\ghkim\\Downloads\\Vendy_RPC\\Vendy_RPC.csproj",
         "packagesPath": "C:\\Users\\ghkim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghkim\\Downloads\\CustomRPC.WPF\\obj\\",
+        "outputPath": "C:\\Users\\ghkim\\Downloads\\Vendy_RPC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghkim\\AppData\\Roaming\\NuGet\\NuGet.Config",

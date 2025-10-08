@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CustomRPC
+namespace Vendy_RPC
 {
     internal static class VersionHelper
     {

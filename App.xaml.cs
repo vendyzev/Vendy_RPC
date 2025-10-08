@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace CustomRPC.WPF;
+namespace Vendy_RPC;
 
 public partial class App : Application
 {

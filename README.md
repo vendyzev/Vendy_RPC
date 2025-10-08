@@ -37,12 +37,12 @@ Modern Discord Rich Presence Manager with Material Design
    dotnet restore
    dotnet build --configuration Release
    ```
-4. 실행 파일 위치: `bin\Release\net8.0-windows\CustomRPC.WPF.exe`
+4. 실행 파일 위치: `bin\Release\net8.0-windows\Vendy_RPC.exe`
 
 ### 3. 실행 방법
 
 1. Discord 데스크톱 앱 실행
-2. 빌드된 실행 파일(`CustomRPC.WPF.exe`) 더블클릭
+2. 빌드된 실행 파일(`Vendy_RPC.exe`) 더블클릭
 3. Application ID 입력 후 연결 버튼 클릭
 
 ## 주요 기능

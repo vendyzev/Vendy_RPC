@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Windows;
 using System.Windows.Input;
 
-namespace CustomRPC.WPF
+namespace Vendy_RPC
 {
     public static class WinApi
     {

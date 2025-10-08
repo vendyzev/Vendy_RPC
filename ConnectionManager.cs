@@ -1,4 +1,4 @@
-﻿namespace CustomRPC
+﻿namespace Vendy_RPC
 {
     public enum ConnectionState
     {

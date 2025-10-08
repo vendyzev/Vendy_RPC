@@ -5,7 +5,7 @@ using System.Windows.Input;
 using DiscordRPC;
 using DiscordRPC.Helper;
 
-namespace CustomRPC.WPF
+namespace Vendy_RPC
 {
     public enum ActivityType
     {
@@ -38,7 +38,7 @@ namespace CustomRPC.WPF
             
             SetupAutoSave();
             
-            if (settings.StartMinimized)
+            if (settings?.StartMinimized == true)
             {
                 WindowState = WindowState.Minimized;
             }
@@ -132,22 +132,25 @@ namespace CustomRPC.WPF
         {
             try
             {
-                settings.ApplicationId = ApplicationIdTextBox.Text;
-                settings.Details = DetailsTextBox.Text;
-                settings.State = StateTextBox.Text;
-                settings.LargeImageUrl = LargeImageUrlTextBox.Text;
-                settings.LargeImageText = LargeImageTextTextBox.Text;
-                settings.SmallImageUrl = SmallImageUrlTextBox.Text;
-                settings.SmallImageText = SmallImageTextTextBox.Text;
-                settings.Button1Text = Button1TextTextBox.Text;
-                settings.Button1Url = Button1UrlTextBox.Text;
-                settings.Button2Text = Button2TextTextBox.Text;
-                settings.Button2Url = Button2UrlTextBox.Text;
-                
-                settings.MinimizeToTray = BackgroundOnRadio.IsChecked == true;
-                settings.StartMinimized = StartMinimizedCheckBox.IsChecked == true;
-                
-                Utils.SaveSettings(settings);
+                if (settings != null)
+                {
+                    settings.ApplicationId = ApplicationIdTextBox.Text;
+                    settings.Details = DetailsTextBox.Text;
+                    settings.State = StateTextBox.Text;
+                    settings.LargeImageUrl = LargeImageUrlTextBox.Text;
+                    settings.LargeImageText = LargeImageTextTextBox.Text;
+                    settings.SmallImageUrl = SmallImageUrlTextBox.Text;
+                    settings.SmallImageText = SmallImageTextTextBox.Text;
+                    settings.Button1Text = Button1TextTextBox.Text;
+                    settings.Button1Url = Button1UrlTextBox.Text;
+                    settings.Button2Text = Button2TextTextBox.Text;
+                    settings.Button2Url = Button2UrlTextBox.Text;
+                    
+                    settings.MinimizeToTray = BackgroundOnRadio.IsChecked == true;
+                    settings.StartMinimized = StartMinimizedCheckBox.IsChecked == true;
+                    
+                    Utils.SaveSettings(settings);
+                }
             }
             catch (Exception ex)
             {
@@ -350,7 +353,7 @@ namespace CustomRPC.WPF
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
         {
-            if (settings.MinimizeToTray && !isClosingFromButton)
+            if (settings?.MinimizeToTray == true && !isClosingFromButton)
             {
                 e.Cancel = true;
                 WindowState = WindowState.Minimized;
@@ -376,7 +379,7 @@ namespace CustomRPC.WPF
         {
             isClosingFromButton = true;
             
-            if (settings.MinimizeToTray)
+            if (settings?.MinimizeToTray == true)
             {
                 Hide();
             }

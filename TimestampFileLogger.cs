@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace CustomRPC
+namespace Vendy_RPC
 {
     public class TimestampFileLogger : ILogger
     {

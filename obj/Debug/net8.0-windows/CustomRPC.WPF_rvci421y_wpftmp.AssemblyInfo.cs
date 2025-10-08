@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CustomRPC.WPF")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Vendy_RPC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("CustomRPC.WPF")]
+[assembly: System.Reflection.AssemblyProductAttribute("Vendy_RPC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Custom Discord Rich Presence Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]

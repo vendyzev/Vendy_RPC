@@ -6,12 +6,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <AssemblyName>VendyRPC</AssemblyName>
     <AssemblyTitle>Vendy RPC Program</AssemblyTitle>
     <AssemblyDescription>Modern Discord Rich Presence Manager with Material Design</AssemblyDescription>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
     <ApplicationIcon>logo.ico</ApplicationIcon>
-    <StartupObject>CustomRPC.WPF.Program</StartupObject>
+    <StartupObject>Vendy_RPC.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
