@@ -17,9 +17,9 @@ namespace CustomRPC.WPF
 
     public partial class MainWindow : Window
     {
-        private DiscordRpcClient client;
+        private DiscordRpcClient? client;
         private bool isConnected = false;
-        private AppSettings settings;
+        private AppSettings? settings;
         private bool isClosingFromButton = false;
 
         public MainWindow()

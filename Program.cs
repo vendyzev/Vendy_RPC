@@ -14,8 +14,8 @@ namespace CustomRPC.WPF
 {
     static class Program
     {
-        public static Mutex AppMutex { get; private set; }
-        public static string IPCPath { get; private set; }
+        public static Mutex? AppMutex { get; private set; }
+        public static string? IPCPath { get; private set; }
         public static bool IsSecondInstance { get; private set; }
         public static int WM_SHOWFIRSTINSTANCE { get; private set; }
         public static int WM_IMPORTPRESET { get; private set; }
@@ -23,7 +23,7 @@ namespace CustomRPC.WPF
         [STAThread]
         static void Main(string[] args)
         {
-            string presetFile = null;
+            string? presetFile = null;
 #if DEBUG
             string mutexName = "CustomRP dev";
 #else

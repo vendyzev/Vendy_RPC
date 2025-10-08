@@ -33,6 +33,7 @@ namespace CustomRPC.WPF
                     attribute = DWMWA_USE_IMMERSIVE_DARK_MODE;
                 }
 
+                int useImmersiveDarkMode = 1;
                 return DwmSetWindowAttribute(handle, attribute, ref useImmersiveDarkMode, sizeof(int)) == 0;
             }
 
@@ -131,7 +132,7 @@ namespace CustomRPC.WPF
             try
             {
                 var directory = Path.GetDirectoryName(SettingsPath);
-                if (!Directory.Exists(directory))
+                if (!Directory.Exists(directory) && directory != null)
                 {
                     Directory.CreateDirectory(directory);
                 }
